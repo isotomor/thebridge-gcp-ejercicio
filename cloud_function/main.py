@@ -7,3 +7,4 @@ def function_ejercicio_gcp(event, context):
     print("HOLAAA FUNCIONAAA VAMOSSS!!!!")
     file = event
     print(f"Processing file: {file['name']}.")
+    print("He terminado vamosss!!!")
