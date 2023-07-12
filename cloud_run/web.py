@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 # Configura la conexión a Google Cloud Storage
 storage_client = storage.Client()
-bucket_name = 'thebridge_ej_gcp'  # Reemplaza con el nombre de tu bucket en Google Cloud Storage
+bucket_name = 'ejercicio_completo_gcp'  # Reemplaza con el nombre de tu bucket en Google Cloud Storage
 bucket = storage_client.bucket(bucket_name)
 
 # Configura la conexión a Datastore

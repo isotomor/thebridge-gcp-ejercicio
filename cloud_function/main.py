@@ -2,8 +2,7 @@ from google.cloud import storage
 from google.cloud import datastore
 import json
 
-
-def write_database(event, context):
+def function_ejercicio_gcp(event, context):
     # Obtener el nombre del archivo JSON creado en Cloud Storage
     bucket_name = 'thebridge_ej_gcp'  # Cambiar el nombre del bucket aquí
     file_name = event['name']
