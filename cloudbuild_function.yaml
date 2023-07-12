@@ -9,6 +9,7 @@ steps:
       - --source=./cloud_function
       - --trigger-bucket
       - gs://ejercicio_completo_gcp
+      - --allow-unauthenticated
       - --region=europe-west1
 
 #gcloud builds submit --config=cloudbuild-functions-python.yaml
