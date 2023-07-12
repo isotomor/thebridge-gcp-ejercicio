@@ -4,7 +4,7 @@ import json
 
 def function_ejercicio_gcp(event, context):
     # Obtener el nombre del archivo JSON creado en Cloud Storage
-    bucket_name = 'thebridge_ej_gcp'  # Cambiar el nombre del bucket aquí
+    bucket_name = 'ejercicio_completo_gcp'  # Cambiar el nombre del bucket aquí
     file_name = event['name']
 
     # Crear una instancia del cliente de Cloud Storage
