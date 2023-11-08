@@ -4,6 +4,7 @@ import json
 
 
 def write_database(event, context):
+    print("Hola esta es mi app")
     # Obtener el nombre del archivo JSON creado en Cloud Storage
     bucket_name = 'thebridge_ej_gcp'  # Cambiar el nombre del bucket aquí
     file_name = event['name']
