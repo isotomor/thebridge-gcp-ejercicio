@@ -2,7 +2,9 @@ from google.cloud import storage
 from google.cloud import datastore
 import json
 
-def function_ejercicio_gcp(event, context):
+
+def write_database(event, context):
+    print("Hola esta es mi app")
     # Obtener el nombre del archivo JSON creado en Cloud Storage
     bucket_name = 'ejercicio_completo_gcp'  # Cambiar el nombre del bucket aquí
     file_name = event['name']
